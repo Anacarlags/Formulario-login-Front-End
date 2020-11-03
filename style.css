@@ -1,0 +1,36 @@
+
+body{
+    background-color: #fefaf7;
+    font-size: 15;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 100%;
+}
+
+.formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fde910;
+    min-height: 50vh;
+    width: 50%;
+}
+
+input{
+  width: 100%;  
+  padding: 8px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+button{
+    background-color: #1e1782;
+    border: none;
+    color: white;
+    padding: 8px 80px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
