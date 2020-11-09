@@ -1,6 +1,6 @@
 
 body{
-    background-color: #fefaf7;
+    background-color: lightblue;
     font-size: 15;
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
@@ -8,6 +8,7 @@ body{
     align-items: center;
     height: 600px;
     width: 100%;
+    margin: 0 auto;
 }
 
 .formulario{
@@ -15,14 +16,14 @@ body{
     justify-content: center;
     align-items: center;
     background-color: #fde910;
-    min-height: 50vh;
+    height: 50%;
     width: 50%;
 }
 
 input{
   width: 100%;  
-  padding: 8px;
-  margin: 8px 0;
+  padding: 0 8px;
+  margin: 0 auto;
   box-sizing: border-box;
 }
 button{
